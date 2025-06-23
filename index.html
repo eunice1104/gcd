@@ -191,13 +191,13 @@ tout en respectant les standards internationaux en matière de traçabilité de 
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="name" class="form-label">Nom complet</label>
-                                            <input type="text" class="form-control" id="name" required>
+                                            <input type="text" class="form-control" id="name" name="name" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="email" class="form-label">Adresse email</label>
-                                            <input type="email" class="form-control" id="email" required>
+                                            <input type="email" class="form-control" id="email" name="email" required>
                                         </div>
                                     </div>
                                 </div>
@@ -205,19 +205,18 @@ tout en respectant les standards internationaux en matière de traçabilité de 
                                 <div class="mb-3">
                                     <div class="form-group">
                                         <label for="subject" class="form-label">Sujet</label>
-                                        <input type="text" class="form-control" id="subject" required>
+                                        <input type="text" class="form-control" id="subject" name="subjet" required>
                                     </div>
                                 </div>
                                 
                                 <div class="mb-4">
                                     <div class="form-group">
+                                        <input type= "text" id="name" name="name" required>
                                         <label for="message" class="form-label">Message</label>
-                                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                                        <textarea class="form-control" id="message" name="message"rows="4" required></textarea>
                                     </div>
                                 </div>
                                 
-                                <input type="text" name="honey" style="display: none;">
-                                <input type="hidden" name="_captcha" value="false">
 
                                 <button type="submit" class="btn btn-primary w-100 py-2">
                                     <i class="bi bi-send-fill me-2"></i>Envoyer le message
